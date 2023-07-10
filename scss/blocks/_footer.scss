@@ -1,0 +1,22 @@
+.footer {
+	background: $bg-footer;
+	padding: 1.875rem 0;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		gap:0.9375rem;
+		color: $text-clr;
+		line-height: 128.571429%; /* 18/14 */
+	}
+
+	&__text {
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	&__up {
+		&:hover{
+			text-decoration: underline;	
+		}
+	}
+}
